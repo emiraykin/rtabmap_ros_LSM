@@ -44,6 +44,7 @@ using openni2_wrapper::OpenNI2Exception;
 
 int main(int arc, char** argv)
 {
+  int unused1;
   openni2_wrapper::OpenNI2DeviceManager manager;
   boost::shared_ptr<std::vector<openni2_wrapper::OpenNI2DeviceInfo> > device_infos = manager.getConnectedDeviceInfos();
   std::cout << "Found " << device_infos->size() << " devices:" << std::endl << std::endl;
