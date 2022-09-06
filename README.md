@@ -14,7 +14,7 @@ Here is the diagram of packages.
 ![diagram](images/diagram.jpeg)
 
 
-## Importent Changes With The Dependencies' Parameters
+## Important Changes With The Dependencies' Parameters
 
 There are some parameters you need to change in order to work this package properly.
 
