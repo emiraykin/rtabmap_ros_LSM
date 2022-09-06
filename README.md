@@ -3,13 +3,13 @@ RTAB-Map's ROS package.
 
 Please make sure you have all the dependencies before you start. The dependencies above are for noetic-devel. 
 
-!! For the fastest solution, you definetly need to use pointcloud_to_laserscan  and pose2d_to_odom packages in this project. Please do not try to get it externally!!
+!! For the fastest solution, you definitely need to use pointcloud_to_laserscan  and pose2d_to_odom packages in this project. Please do not try to get it externally!!
 
 ## Principle of Work
 
-The package use 2D lidar odometry to localize, so if you are only using an RGBD Camera as sensor, you first need to obtain a laser message and then obtain an odometry with this laser message.
+The package uses 2D lidar odometry to localize, so if you are only using an RGBD Camera as a sensor, you first need to obtain a laser message and then obtain odometry with this laser message.
 
-Here is the diagram of packages.
+Here is the diagram of the packages.
 
 ![diagram](images/diagram.jpeg)
 
@@ -21,14 +21,14 @@ There are some parameters you need to change in order to work this package prope
 
 ### laser_scan_matcher 
 
-If you already have this package or you somehow you get it externally, please do the changes below.
+If you already have this package or you somehow get it externally, please do the changes below.
 
 in **/laser_scan_matcher/demo/demo_gmapping.launch**
 
-make sure first lines looks like below.
+make sure the first lines look like the one below.
 ![p2ls1](images/p2ls1.png)
 
-and also you need to do this remaps **if your laser message named anything but "/scan"**
+and also you need to do these remaps **if your laser message is named anything but "/scan"**
 
 ![p2ls3](images/p2ls3.png)
 
@@ -54,7 +54,7 @@ Open another terminal and run the command
 $ roslaunch pose2d_to_odom start.launch
 
 ```
-And finally run the command 
+And finally, run the command 
 
 ```
 $ roslaunch rtabmap_ros rtabmap.launch 
