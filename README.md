@@ -3,7 +3,7 @@ RTAB-Map's ROS package.
 
 Please make sure you have all the dependencies before you start. The dependencies above are for noetic-devel. 
 
-!! For the fastest solution, you definetly need to use pointcloud_to_laserscan package in this project. Please do not try to get it externally!!
+!! For the fastest solution, you definetly need to use pointcloud_to_laserscan  and pose2d_to_odom packages in this project. Please do not try to get it externally!!
 
 ## Principle of Work
 
