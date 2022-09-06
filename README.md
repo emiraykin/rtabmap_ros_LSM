@@ -65,4 +65,4 @@ Now you are ready to go ...
 
 ## Sample Mapping 
 
-[![RTABMAP Faster Implementation](https://i3.ytimg.com/watch?v=PkO3fUO6CCg/0.jpg)](https://youtube.com/watch?v=PkO3fUO6CCg)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PkO3fUO6CCg/0.jpg)](https://youtube.com/watch?v=PkO3fUO6CCg)
