@@ -23,7 +23,7 @@ There are some parameters you need to change in order to work this package prope
 
 If you already have this package or you somehow you get it externally, please do the changes below.
 
-in **rtabmap_ros_faster/laser_scan_matcher/demo/demo_gmapping.launch**
+in **/laser_scan_matcher/demo/demo_gmapping.launch**
 
 make sure first lines looks like below.
 ![p2ls1](images/p2ls1.png)
