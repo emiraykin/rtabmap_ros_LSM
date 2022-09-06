@@ -70,14 +70,13 @@ Now you are ready to go ...
 
 ## Credits
 
-RTAPMAP -> [.](https://github.com/introlab/rtabmap_ros)
+ -> [RTAPMAP](https://github.com/introlab/rtabmap_ros)
 
-laser_scan_matcher -> [.](https://github.com/CCNYRoboticsLab/scan_tools)
+ -> [laser_scan_matcher](https://github.com/CCNYRoboticsLab/scan_tools)
+ -> [pointcloud_to_laserscan](https://github.com/ipa320/pointcloud_to_laserscan)
 
-pointcloud_to_laserscan -> [.](https://github.com/ipa320/pointcloud_to_laserscan)
+ -> [pose2d_to_odom](https://github.com/selimrecep)
+ 
+ -> [openni2 ](https://github.com/ros-drivers/openni2_camera)
 
-pose2d_to_odom -> [.](https://github.com/selimrecep)
-
-openni2 -> [.](https://github.com/ros-drivers/openni2_camera)
-
-slam_gmapping -> [.](https://github.com/ros-perception/slam_gmapping)
+ -> [slam_gmapping](https://github.com/ros-perception/slam_gmapping)
