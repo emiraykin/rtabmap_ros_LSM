@@ -61,3 +61,8 @@ $ roslaunch rtabmap_ros rtabmap.launch
 
 ```
 Now you are ready to go ...
+
+
+## Sample Mapping 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/watch?v=PkO3fUO6CCg/0.jpg)](https://youtube.com/watch?v=PkO3fUO6CCg)
