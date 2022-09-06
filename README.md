@@ -32,3 +32,32 @@ and also you need to do this remaps **if your laser message named anything but "
 
 ![p2ls3](images/p2ls3.png)
 
+## Running Packages
+
+Open the terminal and run the command below 
+
+```
+$ roslaunch pointcloud_to_laserscan cob4_test_launch_node.launch 
+
+```
+
+Open another terminal and run the command
+
+```
+$ roslaunch laser_scan_matcher demo_gmapping.launch 
+
+```
+
+Open another terminal and run the command
+
+```
+$ roslaunch pose2d_to_odom start.launch
+
+```
+And finally run the command 
+
+```
+$ roslaunch rtabmap_ros rtabmap.launch 
+
+```
+Now you are ready to go ...
