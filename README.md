@@ -68,4 +68,16 @@ Now you are ready to go ...
 
 [![RTABMAP FASTER IMPLEMENTATION](https://img.youtube.com/vi/PkO3fUO6CCg/0.jpg)](https://youtube.com/watch?v=PkO3fUO6CCg)
 
+## Credits
 
+RTAPMAP -> [](https://github.com/introlab/rtabmap_ros)
+
+laser_scan_matcher -> [](https://github.com/CCNYRoboticsLab/scan_tools)
+
+pointcloud_to_laserscan -> [](https://github.com/ipa320/pointcloud_to_laserscan)
+
+pose2d_to_odom -> [](https://github.com/selimrecep)
+
+openni2 -> [](https://github.com/ros-drivers/openni2_camera)
+
+slam_gmapping -> [](https://github.com/ros-perception/slam_gmapping)
