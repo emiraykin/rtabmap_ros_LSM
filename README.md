@@ -12,3 +12,23 @@ The package use 2D lidar odometry to localize, so if you are only using an RGBD 
 Here is the diagram of packages.
 
 ![diagram](images/diagram.jpeg)
+
+
+## Importent Changes With The Dependencies' Parameters
+
+There are some parameters you need to change in order to work this package properly.
+
+
+### laser_scan_matcher 
+
+If you already have this package or you somehow you get it externally, please do the changes below.
+
+in rtabmap_ros_faster/laser_scan_matcher/demo/demo_gmapping.launch
+
+make sure first lines looks like below.
+![p2ls1](images/p2ls1.png)
+
+and also you need to do this remap if your laser message named anything but "/scan"
+
+![p2ls3](images/p2ls3.png)
+
