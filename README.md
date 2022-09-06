@@ -5,3 +5,4 @@ Please make sure you have all the dependencies before you start. The dependencie
 
 ## Principle of Work
 
+![diagram](images/diagram.jpeg)
